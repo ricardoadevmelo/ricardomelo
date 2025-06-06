@@ -1,0 +1,193 @@
+:root {
+    --navy: #333446;
+    --navy-light: #7F8CAA;;
+    --aqua: #B8CFCE;
+    --beige: #E7E0C9;
+    --white: #EEEEEE;
+    --btn-bg: #EEEEEE;
+    --gray-border: #B6B09F;
+}
+
+body {
+    background: var(--beige);
+    color: var(--navy);
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.bg-navy {
+    background-color: var(--navy) !important;
+}
+.text-navy {
+    color: var(--navy) !important;
+}
+.text-navy-light {
+    color: var(--navy-light) !important;
+}
+.text-aqua {
+    color: var(--aqua) !important;
+}
+
+.hero-section {
+    margin: 30px 0;
+}
+
+.btn-custom {
+    background: var(--navy-light);
+    color: var(--beige);
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    box-shadow: 0 2px 10px #11324d18;
+    padding: 0.6rem 2.2rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
+.btn-custom:hover, .btn-custom:focus, .footer-btn:hover, .footer-btn:focus {
+    background: var(--navy);
+    color: var(--beige) !important;
+    transform: translateY(-2px) scale(1.03);
+    text-decoration: none !important;
+}
+
+.btn-outline-navy {
+    color: var(--navy);
+    border: 2px solid var(--navy);
+    background: transparent;
+    font-weight: 600;
+    border-radius: 40px;
+    transition: background 0.2s, color 0.2s;
+    text-decoration: none !important;
+}
+.btn-outline-navy:hover, .btn-outline-navy:focus {
+    background: var(--navy);
+    color: var(--beige) !important;
+}
+
+.profile-pic, .profile-pic-lg {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: var(--beige);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid var(--navy-light);
+}
+.profile-pic img, .profile-pic-lg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-pic-lg {
+    width: 230px;
+    height: 230px;
+}
+.card-photo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--aqua);
+    background: var(--beige);
+}
+.card-custom {
+    background: var(--white);
+    border-radius: 18px;
+    box-shadow: 0 2px 24px #11324d10;
+    color: var(--navy);
+}
+.card-custom .card-title {
+    color: var(--navy-light);
+    font-weight: 700;
+}
+.footer-section {
+    border-top: 1px solid var(--gray-border);
+    font-size: 1rem;
+    background: none;
+}
+.footer-btn {
+    color: var(--navy);
+    background: #f0f3f8;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.4rem 1.4rem;
+    border: none;
+    transition: background 0.2s, color 0.2s;
+    margin-right: 0.5rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
+.footer-btn:last-child {
+    margin-right: 0;
+}
+.footer-btn:hover, .footer-btn:focus {
+    background: var(--navy-light);
+    color: var(--beige) !important;
+    text-decoration: none !important;
+}
+
+.social-icons a {
+    font-size: 1.7rem;
+    color: var(--navy-light);
+    transition: color 0.2s, transform 0.2s;
+    text-decoration: none !important;
+    display: inline-block;
+}
+.social-icons a:hover {
+    color: var(--aqua);
+    transform: scale(1.15);
+}
+
+/* Contact page photo */
+.profile-pic-contact {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: var(--beige);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid var(--navy-light);
+}
+.profile-pic-contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-text-justify {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        text-align: center;
+        padding-top: 7rem;
+        margin: 0;
+    }
+    .profile-pic, .profile-pic-lg {
+        margin-bottom: 1rem;
+    }
+    .footer-section {
+        font-size: 0.95rem;
+    }
+    .footer-btn {
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    .footer-btn:last-child {
+        margin-bottom: 0;
+    }
+    .header-text-justify {
+        text-align: center !important;
+        align-items: center !important;
+    }
+}
