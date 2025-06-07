@@ -187,8 +187,8 @@ body {
         font-size: 0.95rem;
     }
     .footer-btn {
-        margin-bottom: 0.5rem;
-        width: 100%;
+        margin-bottom: 0;
+        width: auto;
     }
     .footer-btn:last-child {
         margin-bottom: 0;
