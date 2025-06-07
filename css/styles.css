@@ -39,9 +39,10 @@ body {
     border-radius: 40px;
     transition: background 0.2s, color 0.2s, transform 0.2s;
     box-shadow: 0 2px 10px #11324d18;
-    padding: 0.6rem 2.2rem;
+    padding: 0.4rem 1.2rem;
     text-decoration: none !important;
     display: inline-block;
+    margin: 0 0.6rem;
 }
 .btn-custom:hover, .btn-custom:focus, .footer-btn:hover, .footer-btn:focus {
     background: var(--navy);
