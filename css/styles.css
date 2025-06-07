@@ -42,7 +42,7 @@ body {
     padding: 0.4rem 1.2rem;
     text-decoration: none !important;
     display: inline-block;
-    margin: 0 0.6rem;
+    margin-top: 1rem;;
 }
 .btn-custom:hover, .btn-custom:focus, .footer-btn:hover, .footer-btn:focus {
     background: var(--navy);
