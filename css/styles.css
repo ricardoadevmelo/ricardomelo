@@ -44,6 +44,12 @@ body {
     display: inline-block;
     margin-top: 1rem;;
 }
+
+.mb-2 {
+    display: flex;
+    gap: 20px;
+}
+
 .btn-custom:hover, .btn-custom:focus, .footer-btn:hover, .footer-btn:focus {
     background: var(--navy);
     color: var(--beige) !important;
