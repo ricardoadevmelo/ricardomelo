@@ -185,6 +185,11 @@ body {
     }
     .footer-section {
         font-size: 0.95rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
     .footer-btn {
         margin-bottom: 0;
