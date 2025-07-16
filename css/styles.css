@@ -111,9 +111,8 @@ body {
     font-weight: 700;
 }
 .footer-section {
-    border-top: 1px solid var(--gray-border);
-    font-size: 1rem;
-    background: none;
+  background: none;
+  border-top: 1px solid #e5e7eb;
 }
 .footer-btn {
     color: var(--navy);
