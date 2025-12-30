@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Home -->
    <url>
-      <loc>https://www.ricardomelo.com/</loc>
+      <loc>https://www.seudominio.com/index.html</loc>
+      <priority>1.0</priority>
    </url>
+
+   <!-- Professional Profile -->
    <url>
-      <loc>https://www.ricardomelo.com/professional_profile.html</loc>
+      <loc>https://www.seudominio.com/professional_profile.html</loc>
+      <priority>0.8</priority>
    </url>
+
+   <!-- Legal Publication -->
    <url>
-      <loc>https://www.ricardomelo.com/legal_publication.html</loc>
+      <loc>https://www.seudominio.com/legal_publication.html</loc>
+      <priority>0.8</priority>
    </url>
-   <!-- adicione about.html se existir -->
+
+   <!-- About Me (se existir) -->
+   <url>
+      <loc>https://www.seudominio.com/about.html</loc>
+      <priority>0.7</priority>
+   </url>
+
 </urlset>
